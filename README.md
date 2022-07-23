@@ -23,6 +23,8 @@ when borrow book for another person system ask name that person and enter name u
 06. Return book. <br>
 Return is very easy. user can do it one touch. <br>
 
+07. Search book from list
+
 ##### This is version 1.0 (First Version). In next update provide more Functionality for the system.
 
 ### Non-Functional Requirement
