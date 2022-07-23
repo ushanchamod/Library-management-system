@@ -1,2 +1,1 @@
-# Library_System--With_React_JS_and_Firebase
-# Library_System--With_React_JS_and_Firebase
+# Library Management System for Home Library :notebook_with_decorative_cover:
