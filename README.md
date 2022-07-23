@@ -5,10 +5,10 @@ That is ReactJS responsive web application create for help manage home library. 
 Use several technologies for done this project for example I used JavaScript based library called ReactJs and I use SCSS (saas package) for styling website. And also I used Firestore Database for store data.
 
 ### Function in system
-01. Add book (with book details). <br>
+#### 01. Add book (with book details). <br>
 Book need unique ID number. It use identify book already available or not in the system and find book. <br>
 
-02. Remove book. <br>
+#### 02. Remove book. <br>
 IF user borrow book library system user can't remove book from system. if system user want to remove book from system first return and user can do it.
 
 03. Add book category. <br>
