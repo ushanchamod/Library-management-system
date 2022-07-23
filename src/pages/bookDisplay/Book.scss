@@ -1,0 +1,130 @@
+.main4 {
+  background-image: url("../assets/blue-pink-halftone.jpg");
+  background-position: center;
+  background-size: cover;
+  height: calc(100vh - 55px);
+  overflow: hidden;
+  overflow-y: scroll;
+
+  .searchBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    input {
+      margin: 15px;
+      width: 40%;
+      font-size: 16px;
+      padding: 10px 15px;
+      border-radius: 10px;
+      border: 2px rgba(146, 146, 146, 0.849) solid;
+      color: rgb(61, 56, 56);
+    }
+  }
+  .body {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+  }
+
+  @media only screen and (max-width: 1160px) {
+    .body {
+      grid-template-columns: auto auto;
+    }
+  }
+
+  @media only screen and (max-width: 810px) {
+    .searchBar {
+      input {
+        margin: 15px;
+        width: 80%;
+        font-size: 18px;
+        padding: 10px 15px;
+        border-radius: 10px;
+        border: 2px rgba(252, 93, 1, 0.849) solid;
+        color: rgb(61, 56, 56);
+      }
+    }
+    .body {
+      display: block;
+      width: 100%;
+    }
+  }
+}
+
+// book card ctyle
+.main5 {
+  background-color: #413f42;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+  width: 370px;
+  height: 175px;
+  border-radius: 10px;
+  overflow: hidden;
+
+  .information {
+    background-color: #ff6464;
+    font-family: arial;
+    padding: 15px;
+    border-radius: 0px 7px 7px 0px;
+
+    h1 {
+      font-size: 20px;
+      color: #fff;
+    }
+
+    .hr {
+      border: none;
+      padding: 1px;
+      background-color: #ffffff7e;
+      margin: 3px 0;
+    }
+
+    h2 {
+      font-size: 18px;
+      font-weight: 500;
+      color: #eee;
+    }
+    p {
+      font-size: 15px;
+      color: rgb(208, 255, 219);
+    }
+  }
+
+  .contrailBtn {
+    button {
+      padding: 20px 40px;
+      border: none;
+      background-color: rgb(255, 121, 31);
+      color: #fff;
+      height: 175px;
+      border-radius: 0px 10px 10px 0px;
+      font-size: 17px;
+      margin-left: 10px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      -moz-box-shadow: inset 0 0 10px #0a0a0a65;
+      -webkit-box-shadow: inset 0 0 20px #0a0a0a65;
+      box-shadow: inset 0 0 20px #0a0a0a65;
+    }
+  }
+
+  @media only screen and (max-width: 810px) {
+    width: 95%;
+    margin: 10px auto;
+  }
+}
+
+@media only screen and (max-width: 1160px) {
+  .main4 {
+    height: calc(100vh - 65px);
+    overflow: hidden;
+    overflow-y: scroll;
+  }
+}

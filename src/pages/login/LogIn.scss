@@ -1,0 +1,66 @@
+.login {
+  background-image: url(../assets/book-background-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  * {
+    display: block;
+  }
+
+  form {
+    background-color: #fff;
+    padding: 30px 25px;
+    border-radius: 7px;
+  }
+
+  h2 {
+    font-family: arial;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 30px;
+    color: rgb(247, 77, 77);
+  }
+
+  label {
+    font-size: 18px;
+    font-family: arial;
+    font-weight: bold;
+    margin-bottom: 9px;
+    color: rgb(73, 73, 73);
+  }
+
+  input {
+    padding: 12px 10px;
+    border-radius: 7px;
+    border: 2px rgb(209, 208, 208) solid;
+    font-size: 17px;
+    margin-bottom: 40px;
+  }
+
+  input[type="password"] {
+    margin-bottom: 5px;
+  }
+
+  button {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 25px;
+    background-color: rgb(248, 120, 61);
+    color: #eee;
+    border: none;
+    border-radius: 7px;
+    transition: 0.4s ease all;
+    margin-top: 40px;
+  }
+
+  button:hover {
+    background-color: rgb(79, 13, 201);
+  }
+}

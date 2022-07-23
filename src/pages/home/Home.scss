@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.main {
+  height: calc(100vh - 55px);
+}
+
+.home {
+  height: 100%;
+  overflow: hidden;
+  overflow-y: scroll;
+  background-image: url("../assets/book-background-2.jpg");
+  background-size: cover;
+  background-position: center;
+
+  .allBook {
+    display: flex;
+    justify-content: center;
+  }
+
+  .allBook a:hover {
+    background-color: rgb(0, 0, 0);
+    color: red;
+  }
+
+  .allBook a {
+    background-color: rgb(0, 119, 255);
+    display: flex;
+    width: 95%;
+    height: 35px;
+    font-size: 12px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 0.3s ease;
+    text-align: center;
+    overflow: hidden;
+    color: rgb(247, 247, 247);
+    font-family: arial;
+  }
+
+  .catogoryContainer {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+    .fa-folder-minus {
+      color: rgb(255, 81, 81);
+      font-size: 30px;
+      transition: 0.3s all ease;
+      cursor: pointer;
+      padding: 20px;
+    }
+
+    .fa-folder-minus:hover {
+      color: rgb(255, 6, 6);
+    }
+  }
+
+  .catogoryCard {
+    background-color: rgba(250, 250, 250, 0.918);
+    display: flex;
+    width: 95%;
+    height: 170px;
+    font-size: 15px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    margin-top: 0;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: all 0.3s ease;
+    text-align: center;
+    overflow: hidden;
+    color: rgb(0, 0, 243);
+
+    h1 {
+      font-family: arial;
+      padding: 20px;
+      color: rgb(4, 29, 255);
+    }
+  }
+
+  .catogoryCard:hover {
+    background-color: rgba(0, 0, 0, 0.664);
+    color: #fff;
+    outline: 3px rgba(255, 255, 255, 0.349) solid;
+  }
+
+  .catogoryCard:hover h1 {
+    color: #fff;
+  }
+
+  @media only screen and (max-width: 720px) {
+    .allBook a {
+      width: 95%;
+      margin-left: 0;
+    }
+
+    .catogoryContainer {
+      padding: 10px;
+      display: grid;
+      grid-template-columns: auto;
+    }
+    .catogoryCard {
+      width: 100%;
+      height: 170px;
+      margin: 10px 0;
+      margin-top: 5px;
+      border-radius: 7px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  .main {
+    height: calc(100vh - 65px);
+  }
+}

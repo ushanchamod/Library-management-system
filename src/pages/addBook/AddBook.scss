@@ -1,0 +1,92 @@
+.main2 {
+  height: calc(100vh - 55px);
+  background-color: #eee;
+  background-image: url(../assets/book-background-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  form {
+    padding: 40px 25px;
+    padding-top: 25px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 7px;
+    border: 1px #eee solid;
+    background-color: #fff;
+  }
+
+  label {
+    font-size: 17px;
+    font-family: arial;
+    font-weight: bold;
+  }
+
+  input {
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 7px;
+    width: 343px;
+    border: 2px solid rgb(145, 145, 145);
+    margin-bottom: 20px;
+    margin-top: 5px;
+  }
+
+  input[type="submit"] {
+    font-size: 15px;
+    padding: 10px 5px;
+    border-color: rgb(177, 177, 177);
+    border-radius: 7px;
+    width: 364.5px;
+    border: none;
+    background-color: blue;
+    color: #eee;
+    font-family: arial;
+    margin: 20px 0 5px 0;
+    cursor: pointer;
+  }
+
+  select {
+    font-size: 15px;
+    padding: 10px 5px;
+    border-radius: 7px;
+    width: 364.5px;
+    border: 1px solid rgb(87, 86, 86);
+    outline: none;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+
+  code {
+    color: red;
+    position: relative;
+    display: block;
+  }
+
+  .author {
+    padding-top: 5px;
+  }
+
+  @media only screen and (max-width: 720px) {
+
+    input {
+      font-size: 17px;
+      padding: 10px;
+      border-radius: 7px;
+      width: 300px;
+      border: 1px solid rgb(87, 86, 86);
+      margin-bottom: 20px;
+      margin-top: 5px;
+    }
+
+    select {
+      font-size: 15px;
+      width: 322px;
+    }
+
+    input[type="submit"] {
+      width: 322px;
+    }
+  }
+}
