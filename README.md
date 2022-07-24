@@ -27,7 +27,7 @@ Return is very easy. user can do it one touch. <br>
 
 ##### This is version 1.0 (First Version). In next update provide more Functionality for the system.
 
-### Non-Functional Requirement
+### Non-Functional Things
 01. Dates are auto add to system.
 02. Fast update.
 03. UI/ UX is high.
